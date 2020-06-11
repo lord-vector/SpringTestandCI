@@ -1,0 +1,301 @@
+2020-06-10 15:35:31 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner -
+				SpringJUnit4ClassRunner constructor called with [class com.stackroute.myrest.Dao.ItemDAOTest]
+2020-06-10 15:35:31 [main] DEBUG o.s.test.context.BootstrapUtils -
+				Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2020-06-10 15:35:31 [main] DEBUG o.s.test.context.BootstrapUtils -
+				Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2020-06-10 15:35:31 [main] DEBUG o.s.test.context.BootstrapUtils -
+				Instantiating TestContextBootstrapper for test class [com.stackroute.myrest.Dao.ItemDAOTest] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+2020-06-10 15:35:31 [main] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader -
+				Delegating to AnnotationConfigWebContextLoader to process context configuration [ContextConfigurationAttributes@27f723 declaringClass = 'com.stackroute.myrest.Dao.ItemDAOTest', classes = '{class com.stackroute.myrest.config.HibernateConfig}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2020-06-10 15:35:31 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils -
+				Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.stackroute.myrest.Dao.ItemDAOTest]
+2020-06-10 15:35:31 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper -
+				Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@727803de, org.springframework.test.context.transaction.TransactionalTestExecutionListener@704921a5]
+2020-06-10 15:35:31 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.stackroute.myrest.Dao.ItemDAOTest]
+2020-06-10 15:35:31 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.stackroute.myrest.Dao.ItemDAOTest]
+2020-06-10 15:35:31 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.stackroute.myrest.Dao.ItemDAOTest]
+2020-06-10 15:35:31 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.stackroute.myrest.Dao.ItemDAOTest]
+2020-06-10 15:35:31 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.stackroute.myrest.Dao.ItemDAOTest]
+2020-06-10 15:35:31 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.stackroute.myrest.Dao.ItemDAOTest]
+2020-06-10 15:35:31 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.stackroute.myrest.Dao.ItemDAOTest]
+2020-06-10 15:35:31 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.stackroute.myrest.Dao.ItemDAOTest]
+2020-06-10 15:35:31 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved @ProfileValueSourceConfiguration [null] for test class [com.stackroute.myrest.Dao.ItemDAOTest]
+2020-06-10 15:35:31 [main] DEBUG o.s.t.annotation.ProfileValueUtils -
+				Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.stackroute.myrest.Dao.ItemDAOTest]
+2020-06-10 15:35:31 [main] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener -
+				Performing dependency injection for test context [[DefaultTestContext@4bb4de6a testClass = ItemDAOTest, testInstance = com.stackroute.myrest.Dao.ItemDAOTest@7ba18f1b, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2f8f5f62 testClass = ItemDAOTest, locations = '{}', classes = '{class com.stackroute.myrest.config.HibernateConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@192d3247], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+2020-06-10 15:35:31 [main] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader -
+				Delegating to AnnotationConfigWebContextLoader to load context from [WebMergedContextConfiguration@2f8f5f62 testClass = ItemDAOTest, locations = '{}', classes = '{class com.stackroute.myrest.config.HibernateConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@192d3247], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]].
+2020-06-10 15:35:31 [main] DEBUG o.s.t.c.w.AbstractGenericWebContextLoader -
+				Loading WebApplicationContext for merged context configuration [WebMergedContextConfiguration@2f8f5f62 testClass = ItemDAOTest, locations = '{}', classes = '{class com.stackroute.myrest.config.HibernateConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@192d3247], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]].
+2020-06-10 15:35:31 [main] DEBUG o.s.w.c.s.StandardServletEnvironment -
+				Activating profiles []
+2020-06-10 15:35:31 [main] DEBUG o.s.t.c.w.AnnotationConfigWebContextLoader -
+				Registering annotated classes: {class com.stackroute.myrest.config.HibernateConfig}
+2020-06-10 15:35:31 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext -
+				Refreshing org.springframework.web.context.support.GenericWebApplicationContext@517cd4b
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\Dao\CartDAO.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\Dao\CustomerDAO.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\config\ItemAOPConfig.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\config\ItemAspect.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\controller\CartItemController.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\controller\CustomerController.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\service\CartServiceImpl.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\service\CustomerServiceImpl.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\Dao\CartDAO.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\Dao\CustomerDAO.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\config\HibernateConfig.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\config\ItemAOPConfig.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\config\ItemAspect.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\controller\CustomerController.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\service\CartServiceImpl.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner -
+				Identified candidate component class: file [E:\1ustg-batch2\spring\examples\ExampleRest\target\classes\com\stackroute\myrest\service\CustomerServiceImpl.class]
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2020-06-10 15:35:32 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils -
+				Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@4dc27487]
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'hibernateConfig'
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2020-06-10 15:35:32 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory -
+				Found AspectJ method: public java.lang.Object com.stackroute.myrest.config.ItemAspect.insideAddItem(org.aspectj.lang.ProceedingJoinPoint)
+2020-06-10 15:35:32 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory -
+				Found AspectJ method: public void com.stackroute.myrest.config.ItemAspect.displayDetail(org.aspectj.lang.JoinPoint)
+2020-06-10 15:35:32 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory -
+				Found AspectJ method: public void com.stackroute.myrest.config.ItemAspect.afterExecute(org.aspectj.lang.JoinPoint)
+2020-06-10 15:35:32 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory -
+				Found AspectJ method: public void com.stackroute.myrest.config.ItemAspect.setClosure()
+2020-06-10 15:35:32 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory -
+				Found AspectJ method: public void com.stackroute.myrest.config.ItemAspect.afterThrow(com.stackroute.myrest.exceptions.ItemAlreadyExistsException)
+2020-06-10 15:35:32 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory -
+				Found AspectJ method: public java.lang.Object com.stackroute.myrest.config.ItemAspect.insideAddItem(org.aspectj.lang.ProceedingJoinPoint)
+2020-06-10 15:35:32 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory -
+				Found AspectJ method: public void com.stackroute.myrest.config.ItemAspect.displayDetail(org.aspectj.lang.JoinPoint)
+2020-06-10 15:35:32 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory -
+				Found AspectJ method: public void com.stackroute.myrest.config.ItemAspect.afterExecute(org.aspectj.lang.JoinPoint)
+2020-06-10 15:35:32 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory -
+				Found AspectJ method: public void com.stackroute.myrest.config.ItemAspect.setClosure()
+2020-06-10 15:35:32 [main] DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory -
+				Found AspectJ method: public void com.stackroute.myrest.config.ItemAspect.afterThrow(com.stackroute.myrest.exceptions.ItemAlreadyExistsException)
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'transactionAttributeSource'
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'transactionInterceptor'
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'cartDAO'
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'getSession'
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'setDataSource'
+2020-06-10 15:35:32 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'getSession' via factory method to bean named 'setDataSource'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'customerDAO'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'itemAOPConfig'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'itemAspect'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'cartItemController'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'cartServiceImpl'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'customerController'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'customerServiceImpl'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'logall'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcConversionService'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2020-06-10 15:35:36 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				7 mappings in 'requestMappingHandlerMapping'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcPathMatcher'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUrlPathHelper'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'beanNameHandlerMapping'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'resourceHandlerMapping'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+2020-06-10 15:35:36 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+2020-06-10 15:35:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcValidator'
+2020-06-10 15:35:37 [main] DEBUG o.s.v.b.OptionalValidatorFactoryBean -
+				Failed to set up a Bean Validation provider
+javax.validation.ValidationException: Unable to create a Configuration, because no Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+	at javax.validation.Validation$GenericBootstrapImpl.configure(Validation.java:271) ~[javaee-api-7.0.jar:na]
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:256) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean.afterPropertiesSet(OptionalValidatorFactoryBean.java:40) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:394) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:366) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$5291e4e4.mvcValidator(<generated>) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getConfigurableWebBindingInitializer(WebMvcConfigurationSupport.java:603) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.requestMappingHandlerAdapter(WebMvcConfigurationSupport.java:564) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$5291e4e4.CGLIB$requestMappingHandlerAdapter$42(<generated>) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$5291e4e4$$FastClassBySpringCGLIB$$e1276ebb.invoke(<generated>) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration$$EnhancerBySpringCGLIB$$5291e4e4.requestMappingHandlerAdapter(<generated>) ~[spring-webmvc-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_221]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_221]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_221]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_221]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.9.RELEASE.jar:5.1.9.RELEASE]
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:129) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:61) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:107) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:107) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:242) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.0.4.RELEASE.jar:5.0.4.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209) ~[.cp/:na]
+2020-06-10 15:35:37 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-06-10 15:35:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+2020-06-10 15:35:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+2020-06-10 15:35:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+2020-06-10 15:35:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'handlerExceptionResolver'
+2020-06-10 15:35:37 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-06-10 15:35:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'mvcViewResolver'
+2020-06-10 15:35:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Creating shared instance of singleton bean 'gettransact'
+2020-06-10 15:35:37 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory -
+				Autowiring by type from bean name 'gettransact' via factory method to bean named 'getSession'
+2020-06-10 15:35:37 [main] DEBUG o.s.o.h.HibernateTransactionManager -
+				Using DataSource [org.apache.commons.dbcp.BasicDataSource@7efaad5a] of Hibernate SessionFactory for HibernateTransactionManager
+2020-06-10 15:35:37 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Storing ApplicationContext in cache under key [[WebMergedContextConfiguration@2f8f5f62 testClass = ItemDAOTest, locations = '{}', classes = '{class com.stackroute.myrest.config.HibernateConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@192d3247], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]]
+2020-06-10 15:35:37 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@750ed637 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+2020-06-10 15:35:37 [main] DEBUG o.s.t.c.t.TransactionalTestExecutionListener -
+				Explicit transaction definition [PROPAGATION_REQUIRED,ISOLATION_DEFAULT] found for test context [DefaultTestContext@4bb4de6a testClass = ItemDAOTest, testInstance = com.stackroute.myrest.Dao.ItemDAOTest@7ba18f1b, testMethod = whenadditemthenreturnsame@ItemDAOTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2f8f5f62 testClass = ItemDAOTest, locations = '{}', classes = '{class com.stackroute.myrest.config.HibernateConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@192d3247], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]
+2020-06-10 15:35:37 [main] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate -
+				Retrieved ApplicationContext from cache with key [[WebMergedContextConfiguration@2f8f5f62 testClass = ItemDAOTest, locations = '{}', classes = '{class com.stackroute.myrest.config.HibernateConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@192d3247], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]]
+2020-06-10 15:35:37 [main] DEBUG o.springframework.test.context.cache -
+				Spring test ApplicationContext cache statistics: [DefaultContextCache@750ed637 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+2020-06-10 15:35:37 [main] DEBUG o.s.t.c.t.TransactionalTestExecutionListener -
+				No method-level @Rollback override: using default rollback [true] for test context [DefaultTestContext@4bb4de6a testClass = ItemDAOTest, testInstance = com.stackroute.myrest.Dao.ItemDAOTest@7ba18f1b, testMethod = whenadditemthenreturnsame@ItemDAOTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2f8f5f62 testClass = ItemDAOTest, locations = '{}', classes = '{class com.stackroute.myrest.config.HibernateConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@192d3247], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]].
+2020-06-10 15:35:37 [main] DEBUG o.s.o.h.HibernateTransactionManager -
+				Creating new transaction with name [com.stackroute.myrest.Dao.ItemDAOTest.whenadditemthenreturnsame]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2020-06-10 15:35:37 [main] DEBUG o.s.o.h.HibernateTransactionManager -
+				Opened new Session [SessionImpl(384887832<open>)] for Hibernate transaction
+2020-06-10 15:35:37 [main] DEBUG o.s.o.h.HibernateTransactionManager -
+				Exposing Hibernate transaction as JDBC [org.springframework.orm.hibernate5.HibernateTransactionManager$$Lambda$152/458736453@6e02721d]
+2020-06-10 15:35:37 [main] INFO  o.s.t.c.t.TransactionContext -
+				Began transaction (1) for test context [DefaultTestContext@4bb4de6a testClass = ItemDAOTest, testInstance = com.stackroute.myrest.Dao.ItemDAOTest@7ba18f1b, testMethod = whenadditemthenreturnsame@ItemDAOTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2f8f5f62 testClass = ItemDAOTest, locations = '{}', classes = '{class com.stackroute.myrest.config.HibernateConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@192d3247], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]; transaction manager [org.springframework.orm.hibernate5.HibernateTransactionManager@6f6efa4f]; rollback [true]
+2020-06-10 15:35:38 [main] DEBUG o.s.o.h.HibernateTransactionManager -
+				Initiating transaction rollback
+2020-06-10 15:35:38 [main] DEBUG o.s.o.h.HibernateTransactionManager -
+				Rolling back Hibernate transaction on Session [SessionImpl(384887832<open>)]
+2020-06-10 15:35:38 [main] DEBUG o.s.o.h.HibernateTransactionManager -
+				Closing Hibernate Session [SessionImpl(384887832<open>)] after transaction
+2020-06-10 15:35:38 [main] INFO  o.s.t.c.t.TransactionContext -
+				Rolled back transaction for test context [DefaultTestContext@4bb4de6a testClass = ItemDAOTest, testInstance = com.stackroute.myrest.Dao.ItemDAOTest@7ba18f1b, testMethod = whenadditemthenreturnsame@ItemDAOTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2f8f5f62 testClass = ItemDAOTest, locations = '{}', classes = '{class com.stackroute.myrest.config.HibernateConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@192d3247], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]].
+2020-06-10 15:35:38 [Thread-1] DEBUG o.s.w.c.s.GenericWebApplicationContext -
+				Closing org.springframework.web.context.support.GenericWebApplicationContext@517cd4b, started on Wed Jun 10 15:35:31 IST 2020
